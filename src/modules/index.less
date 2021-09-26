@@ -1,0 +1,88 @@
+.meeting-resevation-content {
+  background-color: #fff;
+  padding: 14px 30px;
+  height: 100%;
+
+  .content-title {
+    div {
+      display: inline-block;
+    }
+
+    div:nth-child(1) {
+      font-size: 16px;
+      color: #1d2023;
+      font-weight: 600;
+    }
+
+    div:nth-child(2) {
+      font-size: 12px;
+      color: #606972;
+      font-weight: 600;
+      padding: 0 8px;
+      height: 14px;
+      line-height: 14px;
+      border-right: 1px solid #979797;
+      margin-right: 10px;
+    }
+  }
+
+  .content-changeBtn {
+    text-align: center;
+    .last-week {
+      color: #99a3b1;
+    }
+
+    .this-week {
+    }
+
+    .next-week {
+      color: #99a3b1;
+    }
+  }
+
+  .conten-table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+
+    thead {
+      height: 95px;
+
+      .head-title {
+        td {
+          div:nth-child(1) {
+            font-size: 12px;
+            font-weight: 400;
+            color: #576373;
+          }
+
+          div:nth-child(2) {
+            font-size: 16px;
+            font-weight: 600;
+            color: #576373;
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          height: 95px;
+        }
+      }
+    }
+
+    td {
+      border: 1px solid #dee1e6;
+    }
+  }
+}
+
+.editable-cell-value-wrap {
+  .has-meeting {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+  }
+}

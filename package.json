@@ -1,0 +1,61 @@
+{
+  "name": "calendar-meeting",
+  "version": "0.1.0",
+  "description": "A calendar of meetings based on antd-react",
+  "main": "dist/index.js",
+  "module": "dist/index.es5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "rollup -c rollup.config.js --environment BUILD:development",
+    "start:dev": "rollup -c rollup.server.config.js --environment BUILD:development -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarrisonDo/calendar-meeting-antd.git"
+  },
+  "keywords": [
+    "antd",
+    "react",
+    "calendar"
+  ],
+  "author": "pigeonH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarrisonDo/calendar-meeting-antd/issues"
+  },
+  "homepage": "https://github.com/HarrisonDo/calendar-meeting-antd#readme",
+  "files": [
+    "dist"
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/runtime-corejs3": "^7.7.7",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "less": "^4.1.1",
+    "lodash.camelcase": "^4.3.0",
+    "moment": "^2.29.1",
+    "rollup": "^2.57.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-postcss": "^2.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-sourcemaps": "^0.5.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "dependencies": {
+    "antd": "^4.16.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
