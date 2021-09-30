@@ -10,7 +10,7 @@ CODE_OF_CONDUCT.md
 # .gitignore
 yarn.lock
 .npmignore
-
+index copy.js
 # local env files
 .env.local
 .env.*.local
